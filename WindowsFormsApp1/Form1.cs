@@ -51,8 +51,46 @@ namespace WindowsFormsApp1
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double resistor = double.Parse(textBox6.Text);
+                double resistor2 = double.Parse(textBox7.Text);
+                double answer = resistor + resistor2;
+                label7.Text = answer.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("check again you idiot");
+            }
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double resistor = double.Parse(textBox8.Text);
+            double resistor2 = double.Parse(textBox9.Text);
+            double resistor3 = double.Parse(textBox10.Text);
+            double answer = 1.0 / (1.0 / resistor + 1.0 / resistor2 + 1.0 / resistor3);
+            label9.Text = answer.ToString();
+        }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double resistor = double.Parse(textBox11.Text);
+                double resistor2 = double.Parse(textBox12.Text);
+                double resistor3 = double.Parse(textBox13.Text);
+                double resistor4 = double.Parse(textBox14.Text);
+                double answer = resistor + resistor2 + resistor3 + resistor4;
+                label11.Text = answer.ToString();
+            }
+            catch
+            {
+
+            }
+        }
     }
 }
 
