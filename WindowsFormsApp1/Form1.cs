@@ -91,6 +91,68 @@ namespace WindowsFormsApp1
 
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            double resistor = double.Parse(textBox15.Text);
+            double resistor2 = double.Parse(textBox16.Text);
+            double resistor3 = double.Parse(textBox17.Text);
+            double resistor4 = double.Parse(textBox18.Text);
+            double answer = 1.0 / (1.0 / resistor + 1.0 / resistor2 + 1.0 / resistor3 + 1.0 / resistor4);
+            label13.Text = answer.ToString();
+        }
+
+        private void textBox15_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox17_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            double resistor = double.Parse(textBox19.Text);
+            double resistor2 = double.Parse(textBox20.Text);
+            double resistor3 = double.Parse(textBox21.Text);
+            double resistor4 = double.Parse(textBox22.Text);
+            double resistor5 = double.Parse(textBox23.Text);
+            double answer = resistor + resistor2 + resistor3 + resistor4 + resistor5;
+            label15.Text = answer.ToString();
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            double resistor = double.Parse(textBox24.Text);
+            double resistor2 = double.Parse(textBox25.Text);
+            double resistor3 = double.Parse(textBox26.Text);
+            double resistor4 = double.Parse(textBox27.Text);
+            double resistor5 = double.Parse(textBox28.Text);
+            double answer = 1.0 / (1.0 / resistor + 1.0 / resistor2 + 1.0 / resistor3 + 1.0 / resistor4 + 1.0 / resistor5);
+            label17.Text = answer.ToString();
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

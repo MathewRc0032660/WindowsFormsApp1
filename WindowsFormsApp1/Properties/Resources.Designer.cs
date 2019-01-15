@@ -73,6 +73,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap parallel_4 {
+            get {
+                object obj = ResourceManager.GetObject("parallel 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parallel_5 {
+            get {
+                object obj = ResourceManager.GetObject("parallel 5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap parralel_res_3 {
             get {
                 object obj = ResourceManager.GetObject("parralel res 3", resourceCulture);
@@ -86,6 +106,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap series_234 {
             get {
                 object obj = ResourceManager.GetObject("series 234", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap series_5 {
+            get {
+                object obj = ResourceManager.GetObject("series 5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
