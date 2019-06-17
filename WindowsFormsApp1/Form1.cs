@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // calculates total resistance for 3 resistors in series
             try
             {
                 double resistor = double.Parse(textBox1.Text);
@@ -38,6 +39,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // calculates 4 resistors in series
             double resistor = double.Parse(textBox4.Text);
             double resistor2 = double.Parse(textBox5.Text);
             double fraction1 = resistor * resistor2;
@@ -53,6 +55,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // calculates 2 resistors in series
             try
             {
                 double resistor = double.Parse(textBox6.Text);
@@ -68,6 +71,7 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // calculates 3 resistors in parralell 
             double resistor = double.Parse(textBox8.Text);
             double resistor2 = double.Parse(textBox9.Text);
             double resistor3 = double.Parse(textBox10.Text);
@@ -77,6 +81,7 @@ namespace WindowsFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
+            // calculates 4 resistors in series 
             try
             {
                 double resistor = double.Parse(textBox11.Text);
@@ -94,6 +99,7 @@ namespace WindowsFormsApp1
 
         private void button6_Click(object sender, EventArgs e)
         {
+            // calculates 4 resitors in parallel
             double resistor = double.Parse(textBox15.Text);
             double resistor2 = double.Parse(textBox16.Text);
             double resistor3 = double.Parse(textBox17.Text);
@@ -123,7 +129,7 @@ namespace WindowsFormsApp1
         }
 
         private void button7_Click(object sender, EventArgs e)
-        {
+        { // calculates 5 resistors in series
             double resistor = double.Parse(textBox19.Text);
             double resistor2 = double.Parse(textBox20.Text);
             double resistor3 = double.Parse(textBox21.Text);
@@ -140,6 +146,7 @@ namespace WindowsFormsApp1
 
         private void button8_Click(object sender, EventArgs e)
         {
+            // calculates 5 resistors in parallel 
             double resistor = double.Parse(textBox24.Text);
             double resistor2 = double.Parse(textBox25.Text);
             double resistor3 = double.Parse(textBox26.Text);
